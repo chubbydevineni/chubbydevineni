@@ -1,0 +1,30 @@
+location: external-repos
+sources:
+  - repo: https://github.com/chubbydevineni/sindhu
+    name: sindhu
+    rev: main
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - target: src
+    scripts:
+      -
+sources_locked:
+  - repo: https://github.com/chubbydevineni/sindhu
+    name: repo1
+    rev: cf054dc70ec747b64942ec305b144ef9584025be
+    type: git
+    params:
+    sparse_paths:
+      -
+    links:
+      - target: src
+    scripts:
+      -
+default_group: test
+groups:
+  - name: test
+    members:
+      - test
