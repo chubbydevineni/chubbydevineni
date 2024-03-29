@@ -13,7 +13,7 @@ sources:
       -
 sources_locked:
   - repo: https://github.com/chubbydevineni/sindhu
-    name: repo1
+    name: sindhu
     rev: cf054dc70ec747b64942ec305b144ef9584025be
     type: git
     params:
